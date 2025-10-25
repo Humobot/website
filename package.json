@@ -1,0 +1,24 @@
+{
+  "name": "@humobot/website",
+  "type": "module",
+  "description": "humobot website",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^12.6.10",
+    "@astrojs/starlight": "^0.36.1",
+    "astro": "^5.6.1",
+    "sharp": "^0.34.2",
+    "starlight-blog": "^0.24.3",
+    "starlight-giscus": "^0.8.1"
+  },
+  "devDependencies": {
+    "wrangler": "^4.44.0"
+  }
+}
